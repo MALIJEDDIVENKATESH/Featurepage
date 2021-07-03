@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195.249" height="195.249" viewBox="0 0 195.249 195.249">
+  <defs>
+    <filter id="XMLID_680_" x="0" y="0" width="195.249" height="195.249" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#1aa7de" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_511" data-name="Group 511" transform="translate(60 45)">
+    <g transform="matrix(1, 0, 0, 1, -60, -45)" filter="url(#XMLID_680_)">
+      <path id="XMLID_680_2" data-name="XMLID_680_" d="M528.915,699.849h0a37.624,37.624,0,0,1-37.625-37.625h0A37.624,37.624,0,0,1,528.915,624.6h0a37.624,37.624,0,0,1,37.625,37.625h0A37.624,37.624,0,0,1,528.915,699.849Z" transform="translate(-431.29 -579.6)" fill="#1aa7de"/>
+    </g>
+  </g>
+</svg>

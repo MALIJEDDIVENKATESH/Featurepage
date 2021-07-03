@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Anti_cheating_measures" data-name="Anti cheating measures" transform="translate(-313.605 -367.186)">
+    <circle id="Ellipse_223" data-name="Ellipse 223" cx="50" cy="50" r="50" transform="translate(313.605 367.185)" fill="#fff"/>
+    <g id="Group_343" data-name="Group 343" transform="translate(338.793 392.373)">
+      <g id="Group_338" data-name="Group 338" transform="translate(0 42.127)">
+        <path id="Path_226" data-name="Path 226" d="M410.821,508.018H366.764a2.783,2.783,0,0,1-2.784-2.784h0a2.783,2.783,0,0,1,2.784-2.784h44.057a2.783,2.783,0,0,1,2.784,2.784h0A2.783,2.783,0,0,1,410.821,508.018Z" transform="translate(-363.98 -502.45)" fill="none" stroke="#1aa7de" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="Group_339" data-name="Group 339" transform="translate(22.029 29.775)">
+        <rect id="Rectangle_717" data-name="Rectangle 717" width="5.568" height="10.918" fill="#1aa7de"/>
+      </g>
+      <path id="Path_227" data-name="Path 227" d="M411.2,507.994h-12.55a2.655,2.655,0,0,1-2.655-2.655v-4.114a2.655,2.655,0,0,1,2.655-2.655H411.2a2.655,2.655,0,0,1,2.655,2.655v4.114A2.655,2.655,0,0,1,411.2,507.994Z" transform="translate(-380.105 -458.369)" fill="#1aa7de"/>
+      <path id="Path_228" data-name="Path 228" d="M385.461,417.56h25.805a2.482,2.482,0,0,1,2.481,2.481v25.805a2.482,2.482,0,0,1-2.481,2.481H385.461a2.482,2.482,0,0,1-2.481-2.481V420.041A2.482,2.482,0,0,1,385.461,417.56Z" transform="translate(-373.551 -417.56)" fill="none" stroke="#1aa7de" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Group_342" data-name="Group 342" transform="translate(15.608 6.175)">
+        <g id="Group_340" data-name="Group 340">
+          <path id="Path_229" data-name="Path 229" d="M413.41,432.542,397.972,447.98a1.489,1.489,0,0,1-2.1,0h0a1.489,1.489,0,0,1,0-2.1l15.438-15.438a1.489,1.489,0,0,1,2.1,0h0A1.489,1.489,0,0,1,413.41,432.542Z" transform="translate(-395.432 -430.002)" fill="#1aa7de"/>
+        </g>
+        <g id="Group_341" data-name="Group 341">
+          <path id="Path_230" data-name="Path 230" d="M411.306,447.98l-15.438-15.438a1.489,1.489,0,0,1,0-2.1h0a1.489,1.489,0,0,1,2.1,0l15.438,15.438a1.488,1.488,0,0,1,0,2.1h0A1.48,1.48,0,0,1,411.306,447.98Z" transform="translate(-395.432 -430.002)" fill="#1aa7de"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

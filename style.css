@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: white !important;
+  box-shadow: 0px 2px 26px rgba(0, 0, 0, 0.3);
+}
+
+#demo-btn {
+  width: 220px;
+  font-size: 16px !important;
+  padding: 10px;
+  float: right;
+  border-radius: 25px;
+  border: none;
+  display: block;
+  margin: auto;
+  background-color: rgb(37, 164, 223);
+}
+
+.navbar a {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: 110px;
+  float: left !important;
+}
+
+.navbar .navbar-nav .nav-item {
+  padding: 2px 0px;
+  padding-right: 40px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #000;
+  position: relative;
+}
+.navbar .navbar-nav .nav-item .nav-link:active {
+  color: #084e7b;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -5px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(37, 164, 223);
+
+  height: 3px;
+  width: 100%;
+  margin: auto;
+  left: 0;
+  bottom: 0;
+}
+
+.landing {
+  width: 100%;
+  padding: 0px 100px;
+  color: #fff;
+  margin-top: 65px;
+  text-align: center;
+  background-color: #084e7b;
+}
+
+.landing h1 {
+  font-weight: bolder;
+  margin-top: 160px;
+  margin-bottom: 117px;
+}
+
+.landing p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 309px;
+}
+
+.landing .landing-icon {
+  height: 50px;
+  width: 50px;
+}
+.landing-item {
+  background-color: #fff;
+  height: 200px;
+  width: 180px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 10px;
+  margin-left: 0px;
+  border-radius: 20px;
+  color: rgb(37, 164, 223);
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.7);
+}
+
+.landing-item-btn {
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  font-size: 14px;
+  width: 95%;
+  font-weight: 600;
+  padding: 10px;
+  background-color: rgb(37, 164, 223);
+}
+
+.row {
+  padding: 0px;
+  margin: 0px;
+}
+
+.count {
+  background-color: #084e7b;
+  background-color: rgb(37, 164, 223);
+}
+
+.count .count-container {
+  height: 200px;
+  padding: 32px 278px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.count .count-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(37, 164, 223);
+}
+
+.count-item .count-title {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.count .count-icon {
+  font-size: 40px;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.client {
+  height: 200px;
+  width: 200px;
+}
+
+.nav {
+  flex-wrap: nowrap;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgb(37, 164, 223);
+  font-weight: 500;
+  color: black;
+  border: none;
+}
+.nav-tabs .nav-link.active {
+  background-color: rgb(37, 164, 223);
+}
+
+.video-img {
+  height: 466px;
+  width: 466px;
+  background-color: gray;
+  border-radius: 20px !important;
+}
+
+.features-container .icon-container {
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(37, 164, 223);
+  position: relative;
+  transform: translateY(-50px);
+}
+
+.features-container {
+  margin: 0px 140px;
+}
+
+.features-container .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 127px;
+  margin-bottom: 86px;
+}
+
+.features-container .description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-bottom: 210;
+}
+
+.features-container .description-container {
+  padding: 0px 138px 138px;
+}
+
+.icon-container img {
+  height: 200px;
+  width: 100px;
+}
+.feature-description {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.feature-description .item-description {
+  margin: 0px;
+}
+
+.feature-description .icon-container {
+  color: #084e7b;
+  margin: 0px 15px;
+}
+
+.items {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.items > * {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 181px;
+}
+
+.items .item-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 18px;
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    padding: 0px;
+  }
+
+  .landing {
+    padding: 30px;
+  }
+
+  .features-container .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 57px;
+    margin-bottom: 36px;
+  }
+
+  .features-container .icon-container {
+    transform: none;
+    color: #084e7b;
+    transform: translateY(0px);
+  }
+
+  .icon-container img {
+    height: 120px;
+    width: 100px;
+  }
+
+  .video-img {
+    height: 220px;
+    width: 220px;
+    margin: 60px 54px;
+  }
+
+  .count {
+    padding: 0px 80px;
+    overflow-x: scroll;
+  }
+
+  .count .count-container {
+    width: 100%;
+    height: 123px;
+    font-size: 10px;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .count .count-icon {
+    height: 45px;
+    width: 45px;
+    margin: 0px auto;
+    margin-bottom: 5px;
+  }
+
+  .count .count-title{
+      margin: 0px;
+      font-size: 8px;
+  }
+
+  .items > * {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 36px;
+  }
+
+  .feature-description .item-description {
+    margin-right: 0px;
+  }
+
+  .features-container {
+    margin: 0px;
+  }
+  .features-container .description-container {
+    padding: 36px 80px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 18px;
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    padding: 0px;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link:hover:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(37, 164, 223);
+    height: 3px;
+    width: 50%;
+    margin: 0px auto;
+    left: 25%;
+    bottom: -0px;
+  }
+
+  .floatingbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10%;
+    left: -150px;
+    z-index: 100;
+  }
+
+  .scrollbutton {
+    margin: 0px 3px;
+  }
+
+  #demo-btn {
+    margin: 0;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: auto;
+  }
+  .landing {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .landing-item-container {
+    margin: 0px 30px;
+  }
+
+  .features-container .description {
+    font-size: 12px;
+  }
+
+  .count .count-container {
+    justify-content: start;
+  }
+
+  .count .count-item {
+    margin: 0px;
+    margin-right: 5px;
+    margin-left: 15px;
+    width: auto;
+  }
+
+  .count .count-title {
+    padding: 0px;
+    margin: 0px 0px;
+    margin-top: 9px;
+    font-size: 8px;
+  }
+
+  .video-img {
+    margin: 60px auto;
+  }
+
+  .features-container .description-container {
+    padding: 36px 36px;
+  }
+
+  .items {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .items .item-description {
+    font-size: 8px;
+  }
+
+  .item-description > * {
+    height: 106px;
+    overflow: scroll;
+  }
+
+  .features-container .icon-container {
+    width: 79px;
+    height: 122px;
+    transform: translateY(0px);
+    font-size: 10px;
+    margin: 0px;
+  }
+
+  .feature-description:nth-child(even) .icon-container {
+    color: #084e7b;
+    margin: 0px 0px;
+  }
+  .icon-container img {
+    width: 94px;
+    height: 94px;
+  }
+
+  .integrations .proctor-button {
+    font-size: 15px;
+  }
+
+  .client {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px;
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="308" height="308" viewBox="0 0 308 308">
+  <defs>
+    <filter id="Ellipse_157" x="0" y="0" width="308" height="308" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feFlood flood-color="#1aa7de" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_334" data-name="Group 334" transform="translate(-993 -2949)">
+    <g transform="matrix(1, 0, 0, 1, 993, 2949)" filter="url(#Ellipse_157)">
+      <circle id="Ellipse_157-2" data-name="Ellipse 157" cx="100" cy="100" r="100" transform="translate(54 39)" fill="#fafafa" opacity="0"/>
+    </g>
+    <g id="Simple_UI_r" data-name="Simple UI r" transform="translate(785.251 2668.839)">
+      <g id="Group_333" data-name="Group 333" transform="translate(309.769 414.678)">
+        <g id="Group_332" data-name="Group 332">
+          <g id="Group_330" data-name="Group 330" transform="translate(0 0.001)">
+            <path id="Path_220" data-name="Path 220" d="M359.832,498.564a50.036,50.036,0,0,1-50-52.552l.143-2.807,2.807-.143a50.038,50.038,0,0,1,52.49,52.49l-.143,2.807-2.807.143C361.489,498.545,360.657,498.564,359.832,498.564Zm-43.852-49.348a43.841,43.841,0,0,0,43.138,43.138,43.841,43.841,0,0,0-43.138-43.138Z" transform="translate(-309.769 -443.001)" fill="#1aa7de"/>
+          </g>
+          <g id="Group_331" data-name="Group 331" transform="translate(49.348)">
+            <path id="Path_221" data-name="Path 221" d="M394.741,498.563c-.826,0-1.658-.019-2.49-.062l-2.807-.143-.143-2.807a50.139,50.139,0,0,1,14.593-37.9h0a50.13,50.13,0,0,1,37.9-14.593l2.807.143.143,2.807a50.036,50.036,0,0,1-50,52.552Zm43.846-49.348a43.937,43.937,0,0,0-30.3,12.835h0a43.937,43.937,0,0,0-12.835,30.3,43.841,43.841,0,0,0,43.138-43.138Z" transform="translate(-389.239 -442.999)" fill="#1aa7de"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_222" data-name="Path 222" d="M398.769,393.758a8.1,8.1,0,0,0-1.521-.683,8.571,8.571,0,1,0-7.048-15.536,9.531,9.531,0,0,0-1.354.975,8.567,8.567,0,1,0-16.971-1.664,8.177,8.177,0,0,0,.168,1.664,10.294,10.294,0,0,0-1.354-.975,8.574,8.574,0,0,0-8.569,14.853,8.106,8.106,0,0,0,1.521.683,8.571,8.571,0,1,0,7.048,15.536,9.524,9.524,0,0,0,1.354-.975,8.567,8.567,0,1,0,16.971,1.664,8.177,8.177,0,0,0-.168-1.664,10.288,10.288,0,0,0,1.354.975,8.574,8.574,0,1,0,8.569-14.853Zm-18.331,7.582a8.265,8.265,0,1,1,8.265-8.265A8.266,8.266,0,0,1,380.438,401.34Z" transform="translate(-18.216)" fill="none" stroke="#1aa7de" stroke-miterlimit="10" stroke-width="5"/>
+    </g>
+  </g>
+</svg>
