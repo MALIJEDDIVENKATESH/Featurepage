@@ -10,17 +10,6 @@ html {
   box-shadow: 0px 2px 26px rgba(0, 0, 0, 0.3);
 }
 
-#demo-btn {
-  width: 220px;
-  font-size: 16px !important;
-  padding: 10px;
-  float: right;
-  border-radius: 25px;
-  border: none;
-  display: block;
-  margin: auto;
-  background-color: rgb(37, 164, 223);
-}
 
 .navbar a {
   font-size: 18px;
@@ -80,6 +69,8 @@ html {
   font-weight: bolder;
   margin-top: 160px;
   margin-bottom: 117px;
+  font-family: "Montserrat", sans-serif;
+
 }
 
 .landing p {
@@ -88,36 +79,7 @@ html {
   padding-bottom: 309px;
 }
 
-.landing .landing-icon {
-  height: 50px;
-  width: 50px;
-}
-.landing-item {
-  background-color: #fff;
-  height: 200px;
-  width: 180px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 20px 10px;
-  margin-left: 0px;
-  border-radius: 20px;
-  color: rgb(37, 164, 223);
-  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.7);
-}
 
-.landing-item-btn {
-  border: none;
-  border-radius: 50px;
-  outline: none;
-  font-size: 14px;
-  width: 95%;
-  font-weight: 600;
-  padding: 10px;
-  background-color: rgb(37, 164, 223);
-}
 
 .row {
   padding: 0px;
@@ -163,10 +125,6 @@ html {
   margin-bottom: 5px;
 }
 
-.client {
-  height: 200px;
-  width: 200px;
-}
 
 .nav {
   flex-wrap: nowrap;
@@ -276,9 +234,15 @@ html {
     padding: 0px;
   }
 
-  .landing {
-    padding: 30px;
+
+  .landing h1 {
+    font-size: 42px;
   }
+  
+  .landing p {
+    font-size: 18px;
+  }
+
 
   .features-container .title {
     font-family: "Montserrat", sans-serif;
@@ -347,6 +311,68 @@ html {
   .features-container .description-container {
     padding: 36px 80px;
   }
+
+
+  .item1{
+    order: 1;
+
+  }
+  
+  .item2{
+    order: 0;
+
+  }
+  
+  .item3{
+    order: 0 ;
+
+  }
+  
+  .item4{
+    order: 2;
+
+  }
+  
+  .item5{
+
+    order: 4;
+
+  }
+  
+  .item6{
+    order: 3;
+
+  }
+  
+  .item7{
+    order: 3;
+
+  }
+  
+  .item8{
+
+    order: 5;
+
+  }
+  
+  .item9{
+    order: 7;
+
+  }
+  
+  .item10{
+    order: 6;
+
+  } 
+  
+  
+
+
+
+
+
+
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -374,36 +400,17 @@ html {
     bottom: -0px;
   }
 
-  .floatingbtn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 10%;
-    left: -150px;
-    z-index: 100;
-  }
+  
 
-  .scrollbutton {
-    margin: 0px 3px;
-  }
-
-  #demo-btn {
-    margin: 0;
-    height: 40px;
-    font-size: 15px;
-    border-radius: 20px;
-    margin: auto;
-  }
   .landing {
     padding: 0px;
     text-align: center;
   }
 
-  .landing-item-container {
-    margin: 0px 30px;
+  .landing p{
+    font-size: 12px;
   }
+
 
   .features-container .description {
     font-size: 12px;
@@ -457,22 +464,76 @@ html {
     margin: 0px;
   }
 
-  .feature-description:nth-child(even) .icon-container {
-    color: #084e7b;
-    margin: 0px 0px;
-  }
+  
   .icon-container img {
     width: 94px;
     height: 94px;
   }
 
-  .integrations .proctor-button {
-    font-size: 15px;
-  }
 
   .client {
     width: 150px;
     height: 150px;
     margin: 10px 10px;
   }
+
+
+  .item1{
+    order: 1;
+
+  }
+  
+  .item2{
+    order: 0;
+
+  }
+  
+  .item3{
+    order: 2 ;
+
+  }
+  
+  .item4{
+    order: 3;
+
+  }
+  
+  .item5{
+
+    order: 5;
+
+  }
+  
+  .item6{
+    order: 4;
+
+  }
+  
+  .item7{
+    order: 6;
+
+  }
+  
+  .item8{
+
+    order: 7;
+
+  }
+  
+  .item9{
+    order: 9;
+
+  }
+  
+  .item10{
+    order: 8;
+
+  } 
+  
+  
+
+
+
+
+
 }
