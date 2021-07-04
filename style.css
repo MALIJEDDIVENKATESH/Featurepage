@@ -80,7 +80,8 @@ html {
   color: #fff;
   margin-top: 65px;
   text-align: center;
-  background-color: #084e7b;
+  background:url('./images/Homebg.png') ;
+  
 }
 
 .landing h1 {
