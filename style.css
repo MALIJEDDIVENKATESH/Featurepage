@@ -5,6 +5,24 @@ html {
   scroll-behavior: smooth;
 }
 
+#demo-btn{
+  width: 220px;
+  font-size: 16px !important;
+  padding: 10px;
+  float: right;
+  border-radius: 25px;
+  border: none !important;
+  outline: none !important;
+  display: block;
+  margin: auto;
+  background-color:rgb(37, 164, 223);
+  
+
+  
+}
+
+ 
+
 .navbar {
   background-color: white !important;
   box-shadow: 0px 2px 26px rgba(0, 0, 0, 0.3);
@@ -376,6 +394,17 @@ html {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+
+  #demo-btn{
+    margin: 0;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  
   .navbar .navbar-nav .nav-item .nav-link {
     padding: 18px;
     text-align: center;
